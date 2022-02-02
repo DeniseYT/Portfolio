@@ -18,8 +18,13 @@ body {
 
 .img-container-1 {
     /* background-image: url("/Intro/static/img/interiordesignsecrets1.jpeg"); */
-    width: 1900px;
-    height: 1000px;
+    /* width: 1900px;
+    height: 1000px; */
+
+    width: 1650px;
+    border: 15px solid grey;
+    padding: 500px;
+    margin: 20px;
 }
 
 .mybackground-container-item {
@@ -35,8 +40,13 @@ body {
 }
 
 .img-container-2 {
-    width: 1900px;
-    height: 1500px;
+    /* width: 1900px;
+    height: 1500px; */
+
+    width: 1650px;
+    border: 15px solid grey;
+    padding: 500px;
+    margin: 20px;
 }
 
 .skills-container-item {
@@ -50,6 +60,49 @@ body {
     text-align: center;
     width: 100%;
     height: 100%;
+}
+
+.first-layer-container-img-left {
+    /* border: solid 1px black; */
+    /* background-color: lightgrey; */
+    width: 300px;
+    border: 15px solid green;
+    padding: 300px;
+    margin: 20px;
+    display: inline-block;
+
+}
+
+.first-layer-container-img-middle {
+    /* border: solid 1px black; */
+    background-color: lightgrey;
+    width: 400px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    display: inline-block;
+
+}
+
+.first-layer-container-img-right {
+    /* border: solid 1px black; */
+    background-color: lightgrey;
+    width: 400px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    display: inline-block;
+
+}
+
+.container-img {
+    /* background-color: lightgrey; */
+    width: 1650px;
+    border: 15px solid grey;
+    padding: 650px;
+    margin: 20px;
+    /* display: inline-block; */
+
 }
 
 
