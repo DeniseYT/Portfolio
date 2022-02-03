@@ -22,9 +22,10 @@ body {
     height: 1000px; */
 
     width: 1650px;
-    border: 15px solid grey;
+    border: 15px solid white;
     padding: 500px;
     margin: 20px;
+    background-size: cover;
 }
 
 .mybackground-container-item {
@@ -44,9 +45,12 @@ body {
     height: 1500px; */
 
     width: 1650px;
-    border: 15px solid grey;
+    border: 15px solid white;
     padding: 500px;
     margin: 20px;
+    /* object-fit: fill; */
+    /* background-position: center; */
+    background-size: cover;
 }
 
 .skills-container-item {
@@ -63,35 +67,36 @@ body {
 }
 
 .first-layer-container-img-left {
-    /* border: solid 1px black; */
-    /* background-color: lightgrey; */
     width: 300px;
-    border: 15px solid green;
-    padding: 300px;
+    height: 300px;
+    border: 15px solid white;
+    padding: 200px;
     margin: 20px;
     display: inline-block;
+    background-size: cover;
 
 }
 
+
 .first-layer-container-img-middle {
-    /* border: solid 1px black; */
-    background-color: lightgrey;
-    width: 400px;
-    border: 15px solid green;
-    padding: 50px;
+    width: 300px;
+    height: 300px;
+    border: 15px solid white;
+    padding: 200px;
     margin: 20px;
     display: inline-block;
+    background-size: cover;
 
 }
 
 .first-layer-container-img-right {
-    /* border: solid 1px black; */
-    background-color: lightgrey;
-    width: 400px;
-    border: 15px solid green;
-    padding: 50px;
+    width: 300px;
+    height: 300px;
+    border: 15px solid white;
+    padding: 200px;
     margin: 20px;
     display: inline-block;
+    background-size: cover;
 
 }
 
@@ -102,6 +107,7 @@ body {
     padding: 650px;
     margin: 20px;
     /* display: inline-block; */
+    background-size: cover;
 
 }
 
