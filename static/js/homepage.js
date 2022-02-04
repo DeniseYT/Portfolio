@@ -1,5 +1,18 @@
 "use strict";
 
+// Open and close sidebar
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "60%";
+        document.getElementById("mySidebar").style.display = "block";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.display = "none";
+      }
+
+
+      
+// Open Fullscreen
 var elem = document.documentElement;
 function openFullscreen() {
   if (elem.requestFullscreen) {
@@ -11,12 +24,12 @@ function openFullscreen() {
   }
 }
 
-function closeFullscreen() {
-  if (document.exitFullscreen) {
-    document.exitFullscreen();
-  } else if (document.webkitExitFullscreen) { /* Safari */
-    document.webkitExitFullscreen();
-  } else if (document.msExitFullscreen) { /* IE11 */
-    document.msExitFullscreen();
-  }
-}
+// function closeFullscreen() {
+//   if (document.exitFullscreen) {
+//     document.exitFullscreen();
+//   } else if (document.webkitExitFullscreen) { /* Safari */
+//     document.webkitExitFullscreen();
+//   } else if (document.msExitFullscreen) { /* IE11 */
+//     document.msExitFullscreen();
+//   }
+// }
