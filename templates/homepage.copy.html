@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="/Intro/static/js/homepage.js" type="text/javascript"></script>
+
+    <!-- Bootstrap CSS only -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+    <title>Denise Lin's Portfolio</title>
+    <link rel="stylesheet" href="/Intro/static/css/styles.css"> 
+    
+  </head>
+
+  <body>
+
+    <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+    <nav class="w3-sidebar w3-white w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+      <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-white w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+        <i class="fa fa-remove"></i>
+      </a>
+      <div class="w3-bar-block w3-center">
+        <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-light w3-pink" onclick="closeNav()">Home</a>
+        <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+        <a href="#timeline" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Timeline</a>
+        <a href="#skills" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Skills</a>
+        <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-pink w3-xxlarge w3-text-white w3-hover-text-white" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+      <!-- Bootstrap Navbar only -->
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Background</a>
+              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#">Mood Board</a>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </div>
+          </div>
+        </div>
+      </nav> -->
+
+    </div>
+
+
+    <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+      <h1 class="w3-jumbo"><b>Denise Lin</b></h1>
+      <p>Software Engineer and Web Designer.</p>
+    </header>
+
+
+    <!-- About Section -->
+  <div class="w3-content w3-justify w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p>Denise Lin is a Silicon Valley and APAC based Software Engineer and UI/UX Designer, focusing on making the world beautiful.
+        Borned and raised in Taipei, Taiwan; Studied and worked in Beijing, China;
+        Moved to the Bay Area, San Francisco and enjoying variety of the culture now.
+        Few years of working experience at Apple in localization ML field, absorbed tech knowledge
+        and environment, it made me having a strong willing of gaining deeper tech skills.
+        Attended Hackbright Academy to learn and train as a full stack engineer, I now combine my design and 
+        tech skills on presenting beautiful visual side.
+    </p>
+
+
+    <!-- Timeline Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-black">Timeline</h2>
+    <hr class="w3-opacity">
+    
+    <!-- Timeline -->
+    <div class="timeline">
+      <div class="container left">
+        <div class="year">2022</div>
+        <i class="icon fa fa-home"></i>
+        <div class="content">
+          <h2>Software Engineer</h2>
+          <p>
+            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="year">2020-21</div>
+        <i class="icon fa fa-gift"></i>
+        <div class="content">
+          <h2>Software Engineer Student</h2>
+          <p>
+            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+          </p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="year">2017-19</div>
+        <i class="icon fa fa-user"></i>
+        <div class="content">
+          <h2>Localization Specialist</h2>
+          <p>
+            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="year">2015</div>
+        <i class="icon fa fa-running"></i>
+        <div class="content">
+          <h2>Move to the US</h2>
+          <p>
+            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+          </p>
+        </div>
+      </div>
+      
+      
+      </div>
+    </div>
+
+
+
+    
+    
+
+    
+
+    <!-- <div class="intro-container">
+      <h2>Denise Lin is a Silicon Valley and APAC based Software Engineer<br> 
+        and UI/UX Designer, focusing on making the world beautiful.</h2>
+    </div> -->
+
+    <!-- <div 
+    class="img-container-1" 
+    style="background-image: url(/Intro/static/img/interiordesignsecrets1.jpeg)"> 
+    </div> -->
+
+    <!-- <div class="mybackground-container-item">
+      <h3>My Background</h3>
+    </div>
+
+    <div class="mybackground-container-content">
+      <h4>Borned and raised in Taipei, Taiwan; Studied and worked in Beijing, China;<br>
+        Moved to the Bay Area, San Francisco and enjoying variety of the culture now.<br><br>
+        Few years of working experience at Apple in localization ML field, absorbed tech knowledge<br>
+        and environment, it made me having a strong willing of gaining deeper tech skills.<br><br>
+        Attended Hackbright Academy to learn and train as a full stack engineer, I now combine my design and 
+        tech skills on presenting beautiful visual side.
+      </h4>
+    </div> -->
+
+    <!-- <div class="img-container-2" style="background-image: url(/Intro/static/img/modern-art-display-interior-design-2500x1667.jpeg)">
+    </div> -->
+
+    <!-- <div class="skills-container-item">
+      <h3>My Skills</h3>
+    </div> -->
+
+    <!-- <div class="skills-container-content">
+      <h4><b>Languages</b> | Python, JavaScript(AJAX, JSON), HTML, CSS, SQL<br><br>
+        <b>Frameworks & Libraries</b> | Flask, jQuery, Bootstrap, Jinja, React<br><br>
+        <b>Database & Industry Tools</b> | PostgreSQL, Git, GitHub, Command Line<br><br>
+        <b>Tools & Software</b> | Radar, Agile, Digital Marketing
+      </h4>
+    </div> -->
+
+
+    <!-- Skills Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-black">Skills</h2>
+    <hr class="w3-opacity">
+    <p><b>Languages</b> | Python, JavaScript(AJAX, JSON), HTML, CSS, SQL<br>
+      <b>Frameworks & Libraries</b> | Flask, jQuery, Bootstrap, Jinja, React<br>
+      <b>Database & Industry Tools</b> | PostgreSQL, Git, GitHub, Command Line<br>
+      <b>Tools & Software</b> | Radar, Agile, Digital Marketing
+    </p>
+
+
+
+
+    <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-black">Portfolio</h2>
+    <hr class="w3-opacity"> 
+  </div>
+
+  <video width="1000" height="700" controls>
+    <source src="/Intro/static/video/Personal Website.mp4" type="video/mp4">
+    <!-- <source src="/Intro/static/video/Personal Website.ogg" type="video/ogg">
+    Your browser does not support the video tag. -->
+  </video>
+
+
+    <div class="first-layer-container-img-first_left" style="background-image: url(/Intro/static/img/w2000_q60.jpeg)">
+    </div>
+
+    <div class="first-layer-container-img-first_right" style="background-image: url(/Intro/static/img/bloomscape_fiddle-leaf-fig_indigo-alt.webp)">
+    </div>
+
+    <div class="first-layer-container-img-second_left" style="background-image: url(/Intro/static/img/ST_Knit_Throw_Cream_LR-753365.webp)">
+    </div>
+
+    <div class="first-layer-container-img-second_right" style="background-image: url(/Intro/static/img/img83m.jpeg)">
+    </div>
+
+    <div class="container-img" style="background-image: url(/Intro/static/img/90424091_10102879840383977_2584763489700544512_n.jpeg)">
+    </div>
+
+  
+      <!-- Open Fullscreen Button -->
+      <button onclick="openFullscreen();">Open Fullscreen</button>
+      <!-- <button onclick="closeFullscreen();">Close Fullscreen</button> -->
+      
+      <p>Note: Internet Explorer 10 and earlier versions do not support the msRequestFullscreen() method.</p>
+      
+      </body>
+      </html>
+      
+
+    
+    <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-black" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> San Francisco, US</p>
+      <!-- <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p> -->
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    </div>
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
+
+  <!-- Flip Card -->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <!-- <img src="img_avatar.png" alt="Candle" style="width:300px;height:300px;"> -->
+          <img src="/Intro/static/img/w2000_q60.jpeg" alt="Candle" style="width:400px;height:400px;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Candle</h1>
+          <p>Diptyque</p>
+        </div>
+      </div>
+    </div>
+
+  <!-- Zoom on Hover -->     
+    <div class="zoom">
+      <img src="/Intro/static/img/w2000_q60.jpeg" alt="Candle" style="width:300px;height:200px;">
+    </div>
+
+
+  
+
+  </body>
+</html>
