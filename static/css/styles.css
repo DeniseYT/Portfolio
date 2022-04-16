@@ -1,33 +1,27 @@
 body {
-    background-color: pink
+  background-color: pink
 }
 
-
-
-  
-  /* Style the button */
-  button {
-    padding: 10px;
-    font-size: 15px;
-    width: 150px;
-    height: 50px;
-    /* border: 5px solid white; */
-    border: none;
-    background-color: #F22973;
-    color: white;
-    margin: 20px;
-    float: right;
-    cursor: pointer;
-    border-radius: 16px;
-    
-  }
+/* Style the button */
+button {
+  padding: 10px;
+  font-size: 15px;
+  width: 150px;
+  height: 50px;
+  /* border: 5px solid white; */
+  border: none;
+  background-color: #F22973;
+  color: white;
+  margin: 20px;
+  float: right;
+  cursor: pointer;
+  border-radius: 16px;
+}
 
 .w3-bar-block {
   font-family: 'Serif';
   font-weight: bold;
-
 }
-
 
 /* h1 {
     font-family: 'Cambria';
@@ -42,8 +36,8 @@ h1 {
 }
 
 h2 {
-    font-family: 'Serif';
-    font-weight: bold;
+  font-family: 'Serif';
+  font-weight: bold;
 }
 
 /* h3 {
@@ -64,13 +58,11 @@ p {
   font-family: 'Verdana';
 }
 
-
-
-  /* Timeline */
+/* Timeline */
 *,
 *::before,
 *::after {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -231,7 +223,7 @@ body {
     left: 0%;
   }
 
-  .container.left::after, 
+  .container.left::after,
   .container.right::after {
     left: 82px;
   }
@@ -260,5 +252,3 @@ body {
     border-radius: 500px 0 0 500px;
   }
 }
-  
-  
